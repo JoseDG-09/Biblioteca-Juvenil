@@ -1,0 +1,228 @@
+.Registro {
+    background: url(../img/Fondo-Login.jpg);
+}
+#Registro-box {
+    width: 320px;
+    height: 450px;
+    background: #333;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -45%);
+    padding: 45px  30px;
+}
+#Registro-box .Registro-Logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+#Registro-box .Registro-h2 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+#Registro-box label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+#Registro-box input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#Registro-box input[type="text"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+}
+
+
+
+
+/*Segunda caja de registro*/
+
+#Registro2-box {
+    width: 320px;
+    height: 460px;
+    background: #333;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, 49%);
+    padding: 45px  30px;
+}
+#Registro2-box .Registro2-Logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+    display: none;
+}
+
+#Registro2-box label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+#Registro2-box input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#Registro2-box input[type="text"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+}
+
+#Registro2-box input[type="date"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+}
+
+#Registro2-box input[type="password"] 
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+}
+
+
+
+/*Tercera caja de registro*/
+
+#Registro3-box {
+    width: 320px;
+    height: 460px;
+    background: #333;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, 148.5%);
+    padding: 45px  30px;
+}
+
+#Registro3-box label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+#Registro3-box input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#Registro3-box input[type="text"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+}
+
+#Registro3-box input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background-color: rgb(212, 44, 44);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    transform: translate(-0%, 110%);
+}
+
+#Registro3-box select {
+    width: 100%;
+    background: none;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-bottom: 2px solid #fff;
+    transform: translate(0%, 40%);
+}
+
+#Registro3-box select option {
+    background: #333;
+}
+
+#Registro3-box input[type="esconder"] {
+    display: none;
+}
+
+
+
+@media (min-width: 700px) { 
+    #Registro-box {
+        transform: translate(-105%, -40%);
+        height: 480px;
+    }
+    #Registro2-box {
+        transform: translate(5%, -40%);
+        height: 480px;
+    }
+    #Registro2-box .Registro2-Logo {
+        display: flex;
+    }
+    #Registro3-box {
+        transform: translate(-50%, 70%);
+    }
+    .Registro {
+        background: url(../img/Fondo-Login.jpg);
+    }
+}
+@media (min-width: 1000px) {
+    #Registro-box {
+        transform: translate(-150.001%, -40%);
+        width: 320px;
+    }
+    #Registro-box .Registro-Logo{
+        display: none;
+    }
+    #Registro2-box {
+        transform: translate(-50%, -40%);
+        width: 320px;
+    }
+    #Registro2-box .Registro2-Logo{
+        transform: translate(0%, -20%);
+    }
+    #Registro3-box {
+        transform: translate(50.001%, -40%);
+        width: 320px;
+        height: 480px;
+    }
+}

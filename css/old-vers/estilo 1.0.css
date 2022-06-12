@@ -1,0 +1,103 @@
+html{
+    background-color: black;
+}
+body{
+    width: 750px;
+    height: 550px;
+    margin: auto;
+    background-color: rgb(252, 252, 252);
+}
+header{
+    width: 750px;
+    height: 150px;
+    background-color: #ff8800;
+}
+section#logo{
+    width: 500px;
+    height: 150px;
+    background-color: #05d38e;
+    float: left;
+}
+section#find{
+    width: 125px;
+    height: 75px;
+    background-color: #F5BD51;
+    float: left;
+}
+section#login{
+    width: 125px;
+    height: 75px;
+    background-color: rgb(245, 109, 179);
+    float: left;
+}
+nav{
+    width: 750px;
+    height: 50px;
+    background-color: tomato;
+    float: left;
+}
+.navegacion ul{
+    list-style: none;
+}
+.menu > li{
+    position: relative;
+    display: inline-block;
+}
+.menu > li > a{
+    display: block;
+    padding: 5px 10px;
+    color: #353535;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.menu li a:hover{
+    color: #0818f7;
+    transition: all .3s;
+}
+.sub-menu{
+    position: absolute;
+    background: #333333;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+.sub-menu li a{
+    display: block;
+    padding: 15px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.menu li:hover .sub-menu{
+    visibility: visible;
+    opacity: 1;
+}
+main{
+    width: 750px;
+    height: 400px;
+    background-color: yellow;
+}
+aside#logo{
+    width: 50px;
+    height: 375px;
+    background-color: rgb(247, 133, 247);
+    float: left;
+}
+section#text{
+    width: 650px;
+    height: 375px;
+    background-color: chocolate;
+    float: left;
+}
+aside#rigth{
+    width: 50px;
+    height: 375px;
+    background-color: darkblue;
+    float: right;
+}
+footer{
+    width: 750px;
+    height: 25px;
+    background-color: darkcyan;
+    float: left;
+}

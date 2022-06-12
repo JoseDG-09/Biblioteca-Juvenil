@@ -1,0 +1,269 @@
+.Datos {
+    background: url(../img/Fondo-Login.jpg);
+}
+#Datos-box {
+    width: 320px;
+    height: 450px;
+    background: #333;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -45%);
+    padding: 45px  30px;
+}
+#Datos-box .Datos-Logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+#Datos-box .Datos-h2 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+#Datos-box label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+#Datos-box input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#Datos-box input[type="text"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+}
+
+
+
+
+/*Segunda caja de registro*/
+
+#Datos2-box {
+    width: 320px;
+    height: 460px;
+    background: #333;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, 49%);
+    padding: 45px  30px;
+}
+#Datos2-box .Datos2-Logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+    display: none;
+}
+
+#Datos2-box label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+#Datos2-box input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#Datos2-box input[type="text"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+}
+
+#Datos2-box input[type="date"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+}
+
+#Datos2-box input[type="password"] 
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+}
+
+
+
+/*Tercera caja de registro*/
+
+#Datos3-box {
+    width: 320px;
+    height: 460px;
+    background: #333;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, 148.5%);
+    padding: 45px  30px;
+}
+
+#Datos3-box label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+#Datos3-box input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#Datos3-box input[type="text"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+}
+
+#Datos3-box input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background-color: rgb(212, 44, 44);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    transform: translate(-0%, 110%);
+}
+
+#Datos3-box select {
+    width: 100%;
+    background: none;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-bottom: 2px solid #fff;
+    transform: translate(0%, 40%);
+}
+
+#Datos3-box select option {
+    background: #333;
+}
+
+#Datos3-box input[type="esconder"] {
+    display: none;
+}
+
+/*Eliminar Cuenta*/
+#Eliminar {
+    width: 320px;
+    height: 60px;
+    background: #333;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, 1200%);
+    padding: 45px  30px;
+}
+
+#Eliminar input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#Eliminar input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background-color: rgb(212, 44, 44);
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    transform: translate(-0%, -60%);
+}
+
+
+
+
+
+@media (min-width: 700px) { 
+    #Datos-box {
+        transform: translate(-105%, -40%);
+        height: 480px;
+    }
+    #Datos2-box {
+        transform: translate(5%, -40%);
+        height: 480px;
+    }
+    #Datos2-box .Registro2-Logo {
+        display: flex;
+    }
+    #Datos3-box {
+        transform: translate(-50%, 70%);
+    }
+    #Eliminar {
+        transform: translate(-50%, 800%);
+    }
+    .Datos {
+        background: url(../img/Fondo-Login.jpg);
+    }
+}
+@media (min-width: 1000px) {
+    #Datos-box {
+        transform: translate(-150.001%, -40%);
+        width: 320px;
+    }
+    #Datos-box .Registro-Logo{
+        display: none;
+    }
+    #Datos2-box {
+        transform: translate(-50%, -40%);
+        width: 320px;
+    }
+    #Datos2-box .Registro2-Logo{
+        transform: translate(0%, -20%);
+    }
+    #Datos3-box {
+        transform: translate(50.001%, -48%);
+        width: 320px;
+        height: 400px;
+    }
+    #Eliminar {
+        transform: translate(50.001%, 220%);
+        width: 320px;
+        height: 40px;
+    }
+}

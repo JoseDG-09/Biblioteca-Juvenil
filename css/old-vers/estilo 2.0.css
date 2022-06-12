@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    width: 100%;
+
+}
+.logo img{
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin: auto;
+}
+p {
+    background-color: #fff;
+    color: black;
+    padding: 30px 30px 30px 30px;
+
+}
+/*Parallax*/
+.parallax-1{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../../img/figuras.jpg');;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.parallax-2{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../../img/libros.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*Barra de navegacion*/
+nav {
+    background: none;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.sub-menu {
+    display: inline-block;
+    background: salmon;
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+.sub-menu:hover {
+    background: rosybrown;
+    color: red;
+}
+.nav-boton {
+    background: salmon;
+    color: #fff;
+    padding: 10px 0;
+    border: 2px solid #fff;
+    display: none;    
+}
+/* slider*/
+.slider {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    background-color: none;
+}
+
+.slider ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: cambio 20s infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+}
+.slider li {
+    width: 100%;
+    list-style: none;
+}
+.slider img {
+    width: 50%;
+    display: block;
+    margin: auto;
+    padding: 20px;
+}
+
+@keyframes cambio {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+}
+@media (max-width: 600px) {
+    nav{
+        flex-direction: column;
+    }
+    .sub-menu {
+        margin: 10px 0;
+    }
+    .nav-boton {
+        display: inline-block;
+    }
+    .desaparece {
+        display: none;
+    }
+}
